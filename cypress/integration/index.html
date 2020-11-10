@@ -1,0 +1,14 @@
+<body>
+  <ul>
+    <li>foo</li>
+    <li>foo</li>
+    <li>bar</li>
+  </ul>
+  <script>
+    setTimeout(() => {
+      document
+        .querySelector('li:last-child')
+        .remove()
+    }, 1000)
+  </script>
+</body>
